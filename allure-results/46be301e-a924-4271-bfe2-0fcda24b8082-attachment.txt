@@ -1,0 +1,23 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                          Test Method: 'TestClass.test'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Target URL: "https://www.google.com/" @02-07-2023 13:34:03.0322 PM
+[ReportManager] Initial URL: "data:," @02-07-2023 13:34:03.0387 PM
+[ReportManager] Navigate to url "https://www.google.com/". @02-07-2023 13:34:07.0613 PM
+[ReportManager] Get current window title "Google". @02-07-2023 13:34:07.0791 PM
+[ReportManager] Expected "Google", and actual "Google" @02-07-2023 13:34:07.0793 PM
+[ReportManager] Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'Google' for the 'title' attribute" and Actual "Google". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-07-2023 13:34:18.0950 PM
+[ReportManager] Verification Passed: The Browser title is equal to "Google". @02-07-2023 13:34:18.0951 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1688297648270_test_ValidateBrowserAttribute_passed' @02-07-2023 13:34:19.0089 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/simpleJSON.json"". @02-07-2023 13:34:19.0173 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/simpleJSON.json"". @02-07-2023 13:34:19.0174 PM
+[ReportManager] Type "SHAFT_Engine" into "Search". @02-07-2023 13:34:32.0299 PM
+[ReportManager] Key press "ENTER" against "Search". @02-07-2023 13:34:33.0291 PM
+[ReportManager] Get text "About 1,070,000 results (0.28 seconds)" from "By.id: result-stats". @02-07-2023 13:34:52.0603 PM
+[ReportManager] Expected "", and actual "About 1,070,000 results (0.28 seconds) " @02-07-2023 13:34:52.0606 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should not be '' for the 'text' attribute, element locator 'By.id: result-stats'" and Actual "About 1,070,000 results (0.28 seconds) ". Comparison Type "EQUALS". Validation Type "NEGATIVE". @02-07-2023 13:34:59.0525 PM
+[ReportManager] Assertion Passed: Check that result stats is not empty @02-07-2023 13:34:59.0527 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1688297697715_test_ValidateElementAttribute_passed' @02-07-2023 13:34:59.0556 PM

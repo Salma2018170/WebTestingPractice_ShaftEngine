@@ -1,0 +1,80 @@
+[INFO ] 2023-07-02 13:32:42.723 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Powered by SHAFT Engine v7.2.20230621                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-02 13:33:41.000 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-07-02 13:33:41.001 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-07-02 13:33:41.744 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-07-02 13:33:43.048 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-07-02 13:33:43.522 [main] Utils - [TestNG] Running:
+  C:\Users\WIN 10\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-02 13:33:43.585 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-02 13:33:44.110 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-07-02 13:33:44.187 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-07-02 13:33:44.449 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                             'TestClass.beforeClass'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-02 13:33:44.478 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-02 13:33:44.502 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\WIN 10\IdeaProject..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-02 13:33:44.504 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-02 13:33:44.506 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-02 13:33:45.578 [main] ResolutionCache - Resolution chrome=114 in cache (valid until 14:24:38 02/07/2023 EET)
+[DEBUG] 2023-07-02 13:33:45.579 [main] ResolutionCache - Resolution chrome114=114.0.5735.90 in cache (valid until 13:24:38 03/07/2023 EET)
+[INFO ] 2023-07-02 13:33:45.581 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[DEBUG] 2023-07-02 13:33:45.622 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-02 13:33:45.624 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\WIN 10\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-02 13:33:45.688 [main] ReportManager - Jul 02, 2023 1:33:45 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-02 13:33:45.689 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[INFO ] 2023-07-02 13:34:02.851 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-02 13:34:02.869 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "simpleJSON.json"".
+[INFO ] 2023-07-02 13:34:02.871 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2023-07-02 13:34:02.874 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2023-07-02 13:34:02.882 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-07-02 13:34:02.997 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                          Test Method: 'TestClass.test'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-02 13:34:03.322 [main] ReportManager - Target URL: "https://www.google.com/"
+[INFO ] 2023-07-02 13:34:03.387 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-02 13:34:07.636 [main] ReportManager - Navigate to url "https://www.google.com/".
+[INFO ] 2023-07-02 13:34:07.792 [main] ReportManager - Get current window title "Google".
+[INFO ] 2023-07-02 13:34:07.793 [main] ReportManager - Expected "Google", and actual "Google"
+[INFO ] 2023-07-02 13:34:18.950 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'Google' for the 'title' attribute" and Actual "Google". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-02 13:34:19.089 [main] ReportManager - Successfully created attachment 'Screenshot - 1688297648270_test_ValidateBrowserAttribute_passed'
+[INFO ] 2023-07-02 13:34:19.173 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2023-07-02 13:34:19.174 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2023-07-02 13:34:32.299 [main] ReportManager - Type "SHAFT_Engine" into "Search".
+[INFO ] 2023-07-02 13:34:33.292 [main] ReportManager - Key press "ENTER" against "Search".
+[INFO ] 2023-07-02 13:34:52.604 [main] ReportManager - Get text "About 1,070,000 results (0.28 seconds)" from "By.id: result-stats".
+[INFO ] 2023-07-02 13:34:52.606 [main] ReportManager - Expected "", and actual "About 1,070,000 results (0.28 seconds) "
+[INFO ] 2023-07-02 13:34:59.526 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should not be '' for the 'text' attribute, element locator 'By.id: result-stats'" and Actual "About 1,070,000 results (0.28 seconds) ". Comparison Type "EQUALS". Validation Type "NEGATIVE".
+[INFO ] 2023-07-02 13:34:59.556 [main] ReportManager - Successfully created attachment 'Screenshot - 1688297697715_test_ValidateElementAttribute_passed'
+[INFO ] 2023-07-02 13:34:59.565 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: test'
+[INFO ] 2023-07-02 13:35:00.776 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after class configuration method                                             
+                                                             'TestClass.afterClass'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-02 13:35:05.543 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-07-02 13:35:05.609 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-02 13:35:05.611 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-07-02 13:35:05.613 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-07-02 13:35:05.615 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
