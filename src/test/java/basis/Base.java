@@ -7,20 +7,22 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 
 public class Base {
-    SHAFT.GUI.WebDriver driver;
-    private String URL="https://demo.nopcommerce.com/";
+    protected SHAFT.GUI.WebDriver driver;
+    private final String URL="https://demo.nopcommerce.com/";
+    //pages
     protected HomePage homePage;
 
     @BeforeClass
     public void beforeClass() {
+        SHAFT.Properties.flags.set().autoCloseDriverInstance(false);
         driver = new SHAFT.GUI.WebDriver();
         driver.browser().navigateToURL(URL,"nopcommerce");
         homePage=new HomePage(driver);
     }
-    @Test
-    public void tryyy(){
-        homePage.goToRegisterPage();
-    }
+//    @Test
+//    public void tryyy(){
+//        homePage.goToRegisterPage();
+//    }
     @AfterClass(alwaysRun = false)
     public void afterClass(){
        // driver.quit();
