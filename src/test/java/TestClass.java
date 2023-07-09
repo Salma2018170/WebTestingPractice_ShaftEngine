@@ -17,9 +17,9 @@ public class TestClass {
         driver.browser().navigateToURL("https://www.google.com/");
         driver.verifyThat().browser().title().isEqualTo("Google").perform();
         driver.element().type(searchBox, testData.getTestData("searchQuery"))
-                .keyPress(searchBox, Keys.ENTER);
+                        .keyPress(searchBox, Keys.ENTER);
         driver.assertThat().element(resultStats).text().doesNotEqual("")
-                .withCustomReportMessage("Check that result stats is not empty").perform();
+                           .withCustomReportMessage("Check that result stats is not empty").perform();
     }
 
     @BeforeClass

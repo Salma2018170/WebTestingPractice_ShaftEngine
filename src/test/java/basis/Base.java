@@ -5,12 +5,14 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.HomePage;
+import pages.RegisterPage;
 
 public class Base {
     protected SHAFT.GUI.WebDriver driver;
     private final String URL="https://demo.nopcommerce.com/";
     //pages
     protected HomePage homePage;
+    protected RegisterPage registerPage;
 
     @BeforeClass
     public void beforeClass() {

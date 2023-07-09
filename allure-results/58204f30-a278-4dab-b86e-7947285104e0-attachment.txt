@@ -1,0 +1,25 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'TestCases.RegistrationTC.TC01'                                                  
+                                                  Test Description: 'Register with valid data'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @10-07-2023 01:10:05.0880 AM
+[ReportManager] Click "Register". @10-07-2023 01:10:05.0936 AM
+[ReportManager] Verification "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.tagName: h1'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @10-07-2023 01:10:11.0475 AM
+[ReportManager] Verification Passed: The Element located by "By.tagName: h1" exists. @10-07-2023 01:10:11.0477 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1688940608463_TC01_ValidateElementExists_passed' @10-07-2023 01:10:11.0514 AM
+[ReportManager] Moved the mouse to the middle of the element. @10-07-2023 01:10:11.0771 AM
+[ReportManager] Click "Female". @10-07-2023 01:10:11.0834 AM
+[ReportManager] Type "Salma" into "First name:". @10-07-2023 01:10:12.0120 AM
+[ReportManager] Type "Hamed" into "Last name:". @10-07-2023 01:10:12.0393 AM
+[ReportManager] Select "2" from "By.name: DateOfBirthDay". @10-07-2023 01:10:12.0993 AM
+[ReportManager] Select "8" from "By.name: DateOfBirthMonth". @10-07-2023 01:10:13.0771 AM
+[ReportManager] Select "2000" from "By.name: DateOfBirthYear". @10-07-2023 01:10:17.0865 AM
+[ReportManager] Type "salma@gmail.com" into "Email:". @10-07-2023 01:10:18.0158 AM
+[ReportManager] Type "Aman" into "Company name:". @10-07-2023 01:10:18.0429 AM
+[ReportManager] Type "112233" into "Password:". @10-07-2023 01:10:18.0714 AM
+[ReportManager] Type "112233" into "Confirm password:". @10-07-2023 01:10:18.0998 AM
+[ReportManager] Moved the mouse to the middle of the element. @10-07-2023 01:10:19.0202 AM
+[ReportManager] Click "REGISTER". @10-07-2023 01:10:19.0265 AM

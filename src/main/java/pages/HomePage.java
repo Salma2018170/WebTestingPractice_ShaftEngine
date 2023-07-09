@@ -12,8 +12,9 @@ public class HomePage {
         this.driver=driver;
     }
     //Action
-    public void goToRegisterPage(){
-       driver.element().click(registerButton);
+    public RegisterPage goToRegisterPage(){
+        driver.element().click(registerButton);
+        return new RegisterPage(driver);
     }
     public void verifyRegister(){
         driver.element().verifyThat(registerHead).exists().perform();

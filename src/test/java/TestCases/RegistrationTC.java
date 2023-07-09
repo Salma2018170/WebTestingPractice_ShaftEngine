@@ -4,9 +4,11 @@ import basis.Base;
 import org.testng.annotations.Test;
 
 public class RegistrationTC extends Base {
-   @Test
+   @Test(description = "Register with valid data")
     public void TC01(){
-       homePage.goToRegisterPage();
+       registerPage=homePage.goToRegisterPage();
        homePage.verifyRegister();
+       registerPage.setRegisterData();
+
    }
 }
