@@ -2,6 +2,7 @@ package pages;
 
 import com.shaft.driver.SHAFT;
 import org.openqa.selenium.By;
+import org.python.antlr.ast.Str;
 
 public class RegisterPage {
     SHAFT.GUI.WebDriver driver;
@@ -22,18 +23,28 @@ public class RegisterPage {
         this.driver=driver;
     }
     //Action
-    public void setRegisterData() {
+    public void setRegisterData(String firstNameS,String lastNameS,String dayS,String monthS ,String yearS,String emailS ,String companyS,String passwordS,String confirmPasswordS) {
         driver.element().click(genderButtonFemale)
-                        .type(firstName,"Salma")
-                        .type(lastName,"Hamed")
-                        .select(day,"2")
-                        .select(month,"8")
-                        .select(year,"2000")
-                        .type(email,"salma@gmail.com")
-                        .type(company,"Aman")
-                        .type(password,"112233")
-                        .type(confirmPassword,"112233")
-                        .click(registerButton);
-        //driver.element().
+//                        .type(firstName,"Salma")
+//                        .type(lastName,"Mohamed")
+//                        .select(day,"17")
+//                        .select(month,"8")
+//                        .select(year,"2000")
+//                        .type(email,"Salma@gmail.com")
+//                        .type(company,"Aman")
+//                        .type(password,"113388")
+//                        .type(confirmPassword,"113388")
+//                        .click(registerButton);
+        .type(firstName,firstNameS)
+                .type(lastName,lastNameS)
+                .select(day,dayS)
+                .select(month,monthS)
+                .select(year,yearS)
+                .type(email,emailS)
+                .type(company,companyS)
+                .type(password,passwordS)
+                .type(confirmPassword,confirmPasswordS)
+                .click(registerButton);
+//        driver.element().
     }
 }

@@ -3,14 +3,14 @@ package TestCases;
 import basis.Base;
 import org.testng.annotations.Test;
 
-
-public class LogInTestCase extends Base {
+public class AddItemsToCart extends Base {
     @Test
-    public void logInTC01() {
+    public void addItemTC01(){
         logInPage = homePage.goToLogInPage();
-        logInPage.setEmailAndPassword(
+        homePage=logInPage.setEmailAndPassword(
                 testData.getTestData("email"),
                 testData.getTestData("password"));
-    }
+                 computersPage=homePage.gotToComputersPage();
 
+    }
 }
