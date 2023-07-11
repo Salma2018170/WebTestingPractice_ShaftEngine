@@ -4,7 +4,7 @@ import basis.Base;
 import org.testng.annotations.Test;
 
 
-public class LogInTestCase extends Base {
+public class LogInTC extends Base {
     @Test
     public void logInTC01() {
         logInPage = homePage.goToLogInPage();

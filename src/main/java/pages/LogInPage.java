@@ -3,14 +3,14 @@ package pages;
 import com.shaft.driver.SHAFT;
 import org.openqa.selenium.By;
 
-import java.security.PublicKey;
-
 public class LogInPage {
     SHAFT.GUI.WebDriver driver;
     //Element
     By emailText= By.id("Email");
     By passwordText= By.id("Password");
     By logInButton=By.xpath("//button[@class=\"button-1 login-button\"]");
+
+    By myContentButton=By.className("ico-account");
      public LogInPage(SHAFT.GUI.WebDriver driver){
         this.driver=driver;
     }
@@ -21,5 +21,9 @@ public class LogInPage {
                         .type(passwordText,password)
                         .click(logInButton);
                 return new HomePage(driver);
+    }
+    public MyAccountPage goToMyContentPage(){
+         driver.element().click(myContentButton);
+         return new MyAccountPage(driver);
     }
 }

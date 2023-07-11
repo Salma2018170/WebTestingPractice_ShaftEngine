@@ -1,0 +1,31 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'TestCases.ChangePasswordTC.changePasswordTC01'                                          
+                                               Test Description: 'change password with valid data'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @11-07-2023 19:33:57.0076 PM
+[ReportManager] Click "Log in". @11-07-2023 19:33:57.0135 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @11-07-2023 19:33:57.0143 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @11-07-2023 19:33:57.0143 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @11-07-2023 19:33:59.0126 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @11-07-2023 19:33:59.0127 PM
+[ReportManager] Type "test@test.com" into "Email:". @11-07-2023 19:33:59.0565 PM
+[ReportManager] Type "123400" into "Password:". @11-07-2023 19:33:59.0862 PM
+[ReportManager] Moved the mouse to the middle of the element. @11-07-2023 19:34:00.0060 PM
+[ReportManager] Click "LOG IN". @11-07-2023 19:34:00.0119 PM
+[ReportManager] Moved the mouse to the middle of the element. @11-07-2023 19:34:01.0053 PM
+[ReportManager] Click "My account". @11-07-2023 19:34:01.0113 PM
+[ReportManager] Moved the mouse to the middle of the element. @11-07-2023 19:34:01.0773 PM
+[ReportManager] Click "Change password". @11-07-2023 19:34:01.0839 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @11-07-2023 19:34:01.0842 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @11-07-2023 19:34:01.0842 PM
+[ReportManager] Type "123400" into "Old password:". @11-07-2023 19:34:02.0551 PM
+[ReportManager] Type "123456" into "New password:". @11-07-2023 19:34:02.0875 PM
+[ReportManager] Type "123456" into "Confirm password:". @11-07-2023 19:34:03.0191 PM
+[ReportManager] Moved the mouse to the middle of the element. @11-07-2023 19:34:03.0396 PM
+[ReportManager] Click "CHANGE PASSWORD". @11-07-2023 19:34:03.0460 PM
+[ReportManager] Verification "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.className: content'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @11-07-2023 19:34:05.0640 PM
+[ReportManager] Verification Passed: The Element located by "By.className: content" exists. @11-07-2023 19:34:05.0641 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1689093244683_changePasswordTC01_ValidateElementExists_passed' @11-07-2023 19:34:05.0672 PM
