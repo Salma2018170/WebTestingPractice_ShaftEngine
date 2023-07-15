@@ -1,0 +1,21 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                                      Test Method: 'TestCases.BlogTC.TC01'                                                      
+                                          Test Description: 'see Blog details for e-Commerce business'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 17:22:46.0037 PM
+[ReportManager] Click "Log in". @15-07-2023 17:22:46.0105 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:22:46.0114 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:22:46.0115 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:22:48.0871 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:22:48.0872 PM
+[ReportManager] Type "test3@test.com" into "Email:". @15-07-2023 17:22:49.0274 PM
+[ReportManager] Type "123400" into "Password:". @15-07-2023 17:22:49.0599 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 17:22:49.0841 PM
+[ReportManager] Click "LOG IN". @15-07-2023 17:22:49.0916 PM
+[ReportManager] Verification "ValidateElementExists" FAILED. Expected "Element Should not Exist, locator 'By.xpath: //div[@class="message-error validation-summary-errors"]'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "NEGATIVE". @15-07-2023 17:22:53.0024 PM
+[ReportManager] Verification Failed: The Element located by "By.xpath: //div[@class="message-error validation-summary-errors"]" does not exist. @15-07-2023 17:22:53.0025 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1689430971501_TC01_ValidateElementExists_failed' @15-07-2023 17:22:53.0081 PM
+[ReportManager] Successfully created attachment 'Validation Test Data - Failure Reason' @15-07-2023 17:22:53.0084 PM
