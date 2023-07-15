@@ -1,0 +1,18 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'TestCases.ChangeCurrency.TC01'                                                  
+                                                   Test Description: 'Change currency to Euro'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 17:45:20.0557 PM
+[ReportManager] Click "Log in". @15-07-2023 17:45:20.0630 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:45:20.0647 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:45:20.0648 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:45:23.0597 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 17:45:23.0598 PM
+[ReportManager] Type "test3@test.com" into "Email:". @15-07-2023 17:45:24.0002 PM
+[ReportManager] Type "123400" into "Password:". @15-07-2023 17:45:24.0305 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 17:45:24.0535 PM
+[ReportManager] Click "LOG IN". @15-07-2023 17:45:24.0597 PM
+[ReportManager] Select "Euro" from "Currency selector". @15-07-2023 17:45:25.0657 PM

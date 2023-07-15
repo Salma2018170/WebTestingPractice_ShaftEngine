@@ -11,6 +11,7 @@ public class HomePage {
     private final By logInButton=By.className("ico-login");
     private final By computerElement=By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/a");
     private final By blogElement=By.linkText("Blog");
+    private final By customerCurrency=By.id("customerCurrency");
     public HomePage(SHAFT.GUI.WebDriver driver){
         this.driver=driver;
     }
@@ -36,5 +37,7 @@ public class HomePage {
         driver.element().click(blogElement);
         return new BlogPage(driver);
     }
-
+    public void changeCurrencyToEuro(){
+       driver.element().select(customerCurrency,"Euro");
+    }
 }
