@@ -18,6 +18,7 @@ public class Base {
     protected MyAccountPage myAccountPage;
     protected  ChangePasswordPage changePasswordPage;
     protected WishListPage wishListPage;
+    protected BlogPage blogPage;
 
 
     @BeforeClass

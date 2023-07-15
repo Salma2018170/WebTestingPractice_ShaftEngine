@@ -10,6 +10,7 @@ public class HomePage {
     private final By registerHead=By.tagName("h1");
     private final By logInButton=By.className("ico-login");
     private final By computerElement=By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/a");
+    private final By blogElement=By.linkText("Blog");
     public HomePage(SHAFT.GUI.WebDriver driver){
         this.driver=driver;
     }
@@ -30,6 +31,10 @@ public class HomePage {
     public ComputersCategoriesPage gotToComputersPage(){
         driver.element().click(computerElement);
         return new ComputersCategoriesPage(driver);
+    }
+    public  BlogPage goToBlogPage(){
+        driver.element().click(blogElement);
+        return new BlogPage(driver);
     }
 
 }

@@ -1,403 +1,206 @@
-[INFO ] 2023-07-14 19:05:20.359 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:37.642 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                                       Powered by SHAFT Engine v7.2.20230621                                                      
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:05:29.730 [main] ReportManager - Loaded OpenCV "opencv_java470".
-[INFO ] 2023-07-14 19:05:29.731 [main] ReportManager - Initializing Allure Reporting Environment...
-[INFO ] 2023-07-14 19:05:32.201 [main] ReportManager - Initializing Extent Reporting Environment...
-[INFO ] 2023-07-14 19:05:33.516 [main] ReportManager - Initializing Summary Reporting Environment...
-[INFO ] 2023-07-14 19:05:34.056 [main] Utils - [TestNG] Running:
+[INFO ] 2023-07-15 17:22:38.712 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-07-15 17:22:38.712 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-07-15 17:22:38.837 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-07-15 17:22:39.329 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-07-15 17:22:39.577 [main] Utils - [TestNG] Running:
   C:\Users\salma_abdeltawab\AppData\Local\JetBrains\IntelliJIdea2023.1\temp-testng-customsuite.xml
 
-[INFO ] 2023-07-14 19:05:34.147 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:39.610 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                              Starting execution of suite setup configuration method                                             
                                           'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:05:34.512 [main] ReportManager - Initializing Important Links...
-[INFO ] 2023-07-14 19:05:34.530 [main] ReportManager - Initializing Properties...
-[INFO ] 2023-07-14 19:05:34.808 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:39.733 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-07-15 17:22:39.740 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-07-15 17:22:39.866 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                              Starting execution of before class configuration method                                             
-                                                         'TestCases.LogInTC.beforeClass'                                                         
+                                                         'TestCases.BlogTC.beforeClass'                                                         
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:05:34.816 [main] ReportManager - Setting "autoCloseDriverInstance" property with "false".
-[INFO ] 2023-07-14 19:05:34.881 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
-[INFO ] 2023-07-14 19:05:34.925 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], detach: true, extensions: [], prefs: {download.default_directory: D:\IdeaProjects\WebTestingP..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
-[INFO ] 2023-07-14 19:05:34.931 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
-[INFO ] 2023-07-14 19:05:34.933 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
-[DEBUG] 2023-07-14 19:05:36.090 [main] ResolutionCache - Removing resolution chrome=114 from cache (expired on 2023-07-12T14:30:56.000+0300)
-[DEBUG] 2023-07-14 19:05:36.163 [main] InternalHttpClient - ex-0000000001 preparing request execution
-[DEBUG] 2023-07-14 19:05:36.224 [main] ProtocolExec - ex-0000000001 target auth state: UNCHALLENGED
-[DEBUG] 2023-07-14 19:05:36.226 [main] ProtocolExec - ex-0000000001 proxy auth state: UNCHALLENGED
-[DEBUG] 2023-07-14 19:05:36.226 [main] ConnectExec - ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
-[DEBUG] 2023-07-14 19:05:36.226 [main] InternalHttpClient - ex-0000000001 acquiring endpoint (3 MINUTES)
-[DEBUG] 2023-07-14 19:05:36.231 [main] PoolingHttpClientConnectionManager - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
-[DEBUG] 2023-07-14 19:05:36.272 [main] PoolingHttpClientConnectionManager - ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-[DEBUG] 2023-07-14 19:05:36.334 [main] PoolingHttpClientConnectionManager - ex-0000000001 acquired ep-0000000001
-[DEBUG] 2023-07-14 19:05:36.335 [main] InternalHttpClient - ex-0000000001 acquired endpoint ep-0000000001
-[DEBUG] 2023-07-14 19:05:36.336 [main] ConnectExec - ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
-[DEBUG] 2023-07-14 19:05:36.344 [main] InternalHttpClient - ep-0000000001 connecting endpoint (null)
-[DEBUG] 2023-07-14 19:05:36.361 [main] PoolingHttpClientConnectionManager - ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
-[DEBUG] 2023-07-14 19:05:36.362 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com resolving remote address
-[DEBUG] 2023-07-14 19:05:36.689 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/2606:50c0:8000:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8001:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8003:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8002:0:0:0:0:154]
-[DEBUG] 2023-07-14 19:05:36.695 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.111.133:443 (30 SECONDS)
-[DEBUG] 2023-07-14 19:05:36.696 [main] SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/185.199.111.133:443 with timeout 30 SECONDS
-[DEBUG] 2023-07-14 19:05:37.236 [main] SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-[DEBUG] 2023-07-14 19:05:37.236 [main] SSLConnectionSocketFactory - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-[DEBUG] 2023-07-14 19:05:37.237 [main] SSLConnectionSocketFactory - Starting handshake (null)
-[DEBUG] 2023-07-14 19:05:38.777 [main] SSLConnectionSocketFactory - Secure session established
-[DEBUG] 2023-07-14 19:05:38.777 [main] SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-[DEBUG] 2023-07-14 19:05:38.778 [main] SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
-[DEBUG] 2023-07-14 19:05:38.780 [main] SSLConnectionSocketFactory -  peer principal: CN=*.github.io, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
-[DEBUG] 2023-07-14 19:05:38.784 [main] SSLConnectionSocketFactory -  peer alternative names: [*.github.io, github.io, *.github.com, github.com, www.github.com, *.githubusercontent.com, githubusercontent.com]
-[DEBUG] 2023-07-14 19:05:38.784 [main] SSLConnectionSocketFactory -  issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
-[DEBUG] 2023-07-14 19:05:38.786 [main] DefaultManagedHttpClientConnection - http-outgoing-0 set socket timeout to 3 MINUTES
-[DEBUG] 2023-07-14 19:05:38.787 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/185.199.111.133:443 as http-outgoing-0
-[DEBUG] 2023-07-14 19:05:38.787 [main] PoolingHttpClientConnectionManager - ep-0000000001 connected http-outgoing-0
-[DEBUG] 2023-07-14 19:05:38.787 [main] InternalHttpClient - ep-0000000001 endpoint connected
-[DEBUG] 2023-07-14 19:05:38.791 [main] MainClientExec - ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-[DEBUG] 2023-07-14 19:05:38.792 [main] RequestAddCookies - ex-0000000001 Cookie spec selected: strict
-[DEBUG] 2023-07-14 19:05:38.848 [main] InternalHttpClient - ep-0000000001 start execution ex-0000000001
-[DEBUG] 2023-07-14 19:05:38.848 [main] PoolingHttpClientConnectionManager - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
-[DEBUG] 2023-07-14 19:05:38.849 [main] headers - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-[DEBUG] 2023-07-14 19:05:38.849 [main] headers - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
-[DEBUG] 2023-07-14 19:05:38.850 [main] headers - http-outgoing-0 >> accept-encoding: gzip, deflate, br
-[DEBUG] 2023-07-14 19:05:38.850 [main] headers - http-outgoing-0 >> cache-control: max-age=0
-[DEBUG] 2023-07-14 19:05:38.850 [main] headers - http-outgoing-0 >> connection: keep-alive
-[DEBUG] 2023-07-14 19:05:38.850 [main] headers - http-outgoing-0 >> Host: raw.githubusercontent.com
-[DEBUG] 2023-07-14 19:05:38.850 [main] wire - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
-[DEBUG] 2023-07-14 19:05:38.850 [main] wire - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-[DEBUG] 2023-07-14 19:05:38.850 [main] wire - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-[DEBUG] 2023-07-14 19:05:38.850 [main] wire - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
-[DEBUG] 2023-07-14 19:05:38.851 [main] wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
-[DEBUG] 2023-07-14 19:05:38.851 [main] wire - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
-[DEBUG] 2023-07-14 19:05:38.851 [main] wire - http-outgoing-0 >> "[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.627 [main] wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "Content-Length: 723[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.629 [main] wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-GitHub-Request-Id: 75A6:7C33:623E4D:768382:64964CE4[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "Date: Fri, 14 Jul 2023 16:05:34 GMT[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-Served-By: cache-mrs10548-MRS[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "X-Timer: S1689350734.463968,VS0,VE4[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.630 [main] wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.631 [main] wire - http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.631 [main] wire - http-outgoing-0 << "X-Fastly-Request-ID: 798b8eb007957fc462e4178f87c349fb51ea5744[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.631 [main] wire - http-outgoing-0 << "Expires: Fri, 14 Jul 2023 16:10:34 GMT[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.631 [main] wire - http-outgoing-0 << "Source-Age: 101[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.631 [main] wire - http-outgoing-0 << "[\r][\n]"
-[DEBUG] 2023-07-14 19:05:40.639 [main] headers - http-outgoing-0 << HTTP/1.1 200 OK
-[DEBUG] 2023-07-14 19:05:40.639 [main] headers - http-outgoing-0 << Connection: keep-alive
-[DEBUG] 2023-07-14 19:05:40.639 [main] headers - http-outgoing-0 << Content-Length: 723
-[DEBUG] 2023-07-14 19:05:40.639 [main] headers - http-outgoing-0 << Cache-Control: max-age=300
-[DEBUG] 2023-07-14 19:05:40.639 [main] headers - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << X-Content-Type-Options: nosniff
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << X-Frame-Options: deny
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << X-GitHub-Request-Id: 75A6:7C33:623E4D:768382:64964CE4
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << Content-Encoding: gzip
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << Accept-Ranges: bytes
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << Date: Fri, 14 Jul 2023 16:05:34 GMT
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << Via: 1.1 varnish
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << X-Served-By: cache-mrs10548-MRS
-[DEBUG] 2023-07-14 19:05:40.640 [main] headers - http-outgoing-0 << X-Cache: HIT
-[DEBUG] 2023-07-14 19:05:40.641 [main] headers - http-outgoing-0 << X-Cache-Hits: 1
-[DEBUG] 2023-07-14 19:05:40.641 [main] headers - http-outgoing-0 << X-Timer: S1689350734.463968,VS0,VE4
-[DEBUG] 2023-07-14 19:05:40.641 [main] headers - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
-[DEBUG] 2023-07-14 19:05:40.641 [main] headers - http-outgoing-0 << Access-Control-Allow-Origin: *
-[DEBUG] 2023-07-14 19:05:40.641 [main] headers - http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
-[DEBUG] 2023-07-14 19:05:40.641 [main] headers - http-outgoing-0 << X-Fastly-Request-ID: 798b8eb007957fc462e4178f87c349fb51ea5744
-[DEBUG] 2023-07-14 19:05:40.642 [main] headers - http-outgoing-0 << Expires: Fri, 14 Jul 2023 16:10:34 GMT
-[DEBUG] 2023-07-14 19:05:40.642 [main] headers - http-outgoing-0 << Source-Age: 101
-[DEBUG] 2023-07-14 19:05:40.652 [main] MainClientExec - ex-0000000001 connection can be kept alive for 3 MINUTES
-[DEBUG] 2023-07-14 19:05:40.663 [main] wire - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]$7[0xffffffc1]R[0x12]#;[0xffffff94]v[0xffffffbf]~[0xffffffb6][0xfffffff3]1[0xffffff92][0xffffff9a][0xffffffc1][0x1a]x[0xffffffcb][0xffffffb5][0xffffffaf][0xffffffcf]9[0xffffffbe][0xfffffff7]8v[0xb][0x1c][0x1e]E4[0xfffffff6]$x4[0xffffffa1][0xb]*[0xffffffb1][0xffffffd1][0xffffff82][0xfffffffb]%[0xffffff93][0xffffffe0][0xffffffb3][0x10][0xffffffc1][0xffffffe5]qBY,!Y[0xffffffea] KM8,[0x10][0xfffffff0][0x19][0xffffffdd]u[0xffffff82][0x1e][0xffffffb0][0xffffffd8]L[0xffffffcb]%[0xffffff86][0xffffffa1][0xe][0xffffffb8][0xfffffff0]P[0xffffffe8]$[0xf][0x13]t[0x13]3[0xfffffff9][0xffffff84]B2[0xffffffae][0xffffffe6]|@[0xfffffff5][0x1d][0x8][0xffffffc4][0x18][0x16][0xffffff82]o[0xffffffa4][0xffffff9a]P[0xffffff94][0xffffffe7][0xffffffce]R[0xfffffff0][0x8][0xffffffdb]p[0xffffffcb][0x4][0xfffffffa][0xfffffffc][0xffffffb9][\r][0xffffff93][0x15][\n]"
-[DEBUG] 2023-07-14 19:05:40.664 [main] wire - http-outgoing-0 << "[0xffffffda][0xffffff86][0xffffffa1][0x17][0xffffffa8]Q3[0xffffffcb][0xffffffd6][0xffffffd1][0xffffff85][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]s[0x12][0x16][0x7] _d[0xffffff82][0xffffff91][0xffffff84][0xfffffff3][0x1f],[0xfffffff6][0x14]j[0x1b]F,^+[0xffffff98]1ua2[0xffffffbf]h([0xffffff8e][0xffffff94][0xffffffa2][0xffffff91]m[0xffffffa3][0xffffffeb][0xffffff9a][0xffffffb0][0xffffffbb]I[0x17]t[0xffffffdf][0xffffffbd][0xffffffef][0xffffffbb][0xffffff91][0xffffffd7]U[0xffffffbb][0xffffff82][0xffffff9e][0x3][0xffffff9b][0xffffff88][0xffffffb9][0xffffffa6]$[0xffffffa6][0xc][0xffffff9b][0xffffffa5][0xffffffe2][0xffffff83][0xffffff98]F[0xffffffd8]o[0xffffff9e]Mg[0xffffff93][0xffffffbb][0xffffffd9]`|[0xfffffffb]u4[0xffffff9c][0x7f]"}B[0xffffffce][0x8][0xffffffb9][0xffffffe3]<[0x8][0xffffff91][0xffffff90][0xffffff94][0xffffff82][0xffffff90][0xffffffc1]j[0x15]2WI[0xffffffe3]1![0x19][0xffffff91]BnB[0xffffff80][0x9]<f[0xffffffb5][0xffffffe8]=[0xffffffd1]p[0xffffffbd][[0xffffffcf][0xffffffe5][0x1b][0xfffffff4][0xffffff9c][0xffffffff][0xfffffffc][0xfffffff8][0xffffffe1][0xffffffe2][0xffffff94][0xffffffa2][0xffffffae][0xe][0x14]5[0xffffff9a]8[0xffffff83][0xffffffd1]`:[0xfffffffd]<[0xffffffb8][0x1f][0xffffff9c]R[0xffffffcf]u[0x7f]6[0xffffffbc][0xffffff83][0xffffffef][0xf][0xffffffc3][0xffffffd9]/[0xfffffff8][0xfffffff2][0xffffffcd]y s[0xffffffee]'[0x1b]*0g[0xffffffcb][0xffffffc8]nF7H][0xffffff83][0xffffff97]{[0xffffffb1]Q[0x5][\r][0xffffffb5]c[0xffffffb4][0xf][0x2][0xffffffb3][0xffffffb4][0xffffff93][0xe]C[0xffffffa7][0xffffffb3]kAD][0xffffff9d][0xffffffde][0xffffffdb][0xffffffda][0xffffff88][0xffffffec][0xffffffa5][0xffffffbc][0xffffff99][0xffffffd9][0xffffffba]t[0xffffffb5][0xffffffea]9[0xffffffea][0x10])[0xffffffb7][0xffffffca][0xffffff9e][0xfffffff2][0xffffffe2]d^N[0xffffffd8]FW[0x16][0xffffffcd][0xffffffdc]_[0x10][0xfffffff9]i|[0x1c][0xffffff93][0xffffff8e][0xfffffff9]o[0x16][0xffffff86]4'!$G[0xffffffdf]W[0xfffffff4]W*j[[0xfffffff3]xR[0xffffffae][0xffffffb6][0xc][0xffffffd0],; #[0xffffffa9][0xffffff92]5[0xffffffb5][0x7][0xffffff9c][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]jgs[0xfffffffc][0xffffffc2][0xb][0xffffffd9][0x0]t[0xffffff9e]^'Y[0xfffffffb][0xffffff9f][0xffffffb1][0xffffffd8]:[0xffffffbf][0xffffff8d][0xffffffa5][0xffffff9a][0xffffffad][0x7f]m[0x5]&[0xffffffaa][0xffffffa0]^[0xffffff9b][0xffffffcb][0x5]f[0xffffffae][0xffffffe0]RU[0xffffff82][0x10]MS9l[0xffffff91]4t[0xfffffffb][0xffffff8a]][0xffffffd6][0xfffffff4][0xffffff96][0xffffffa6][0xffffff9f]P[0xffffffce][0xffffffd5][0xffffffce][0xffffff93][0xffffffff][0xffffff97][0xffffffcc]p[0xfffffffd][0xfffffff3][0xffffffe8][0x1b][0xffffffcc][0xffffffa2][0xffffffd9]Q[0xffffffbe][0xffffffb2][0xffffffa3][0xffffffc7]m'[0xffffffdf][0xffffffe4][[0xfffffffb]^[0xffffffb0][0xffffff9a][0xffffffbe][0xffffffda][0xffffffda]_[0xffffffce][0xffffff80][0xffffffd2][0xffffffc1]7[0xffffffb7]][0xffffffc1]b[0xffffffee][0xffffffb5][0xffffffff]w[0xffffff83][0xffffffed][0xffffffa7];[0x15]<[0x10]4[0xffffff92][0xffffff84][0x18][\n]"
-[DEBUG] 2023-07-14 19:05:40.664 [main] wire - http-outgoing-0 << "BB[0xffffffba][0xffffff8e]][0xffffffb5]jo[0xffffffb9]+"[0xffffffea][0xffffffb4][0xffffffff]h"[0xffffffea]\?5[0xffffffa9][0xffffffaf]k[0xffffffec][0xffffffff]P[0xffffffea][\n]"
-[DEBUG] 2023-07-14 19:05:40.665 [main] wire - http-outgoing-0 << "w[0xffffffe1]K[0x13][0xffffffda][0xffffffec][0xffffff98][0xffffffe6]Y[0xfffffffd]h8m6[0xffffff9c]T[0xffffffc1][0xfffffff2][0xffffffa7][0xffffff91]z_[0xffffff95]o85p[0x1c][0x13][0xffffffe6][0xfffffff0]5[0xffffffee][0xfffffffc][0xffffff92][0xffffff96][0xffffffda][0xfffffff7][0xffffffcf][0xffffffb1][0x5][0x1d][0xffffffea]K[0xffffff9b]9[0xffffff8e][0xffffffad]e[0xfffffff7][0xffffff93][0xffffffa8]`[0xffffffda][0xffffffff][0x1a][0xffffffd2][0xffffff88][0xffffff85][0xfffffffd][0xfffffff2][0xffffff91]N[0xfffffff6]`[0xffffffdf]2[0xffffffcf][0xffffffae]E[0xffffff97][0xffffffc5][0xffffffa2][0xffffff9d][0xffffffef]'[0xffffff9d]mun.[0xffffffd3]f^[0xffffffc7][0xffffff82][0xffffffda][0xffffff82]9[0xfffffff5][0xffffffa9]`[0x5][0xffffffbc]4[0xffffffa1][0x1d]<M[0xffffffb5]A[0xffffffa7]3[[0xffffffc0][0x7f][0x0][0xffffffc1][0xffffffd0]$[0xffffff85][0x1d][\r][0x0][0x0]"
-[DEBUG] 2023-07-14 19:05:40.666 [main] InternalHttpClient - ep-0000000001 releasing valid endpoint
-[DEBUG] 2023-07-14 19:05:40.666 [main] PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
-[DEBUG] 2023-07-14 19:05:40.667 [main] PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
-[DEBUG] 2023-07-14 19:05:40.668 [main] PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-[DEBUG] 2023-07-14 19:05:40.669 [main] VersionDetector - Detecting chrome version using online commands.properties
-[DEBUG] 2023-07-14 19:05:40.676 [main] Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
-[DEBUG] 2023-07-14 19:05:41.005 [main] Shell - Result: Version=114.0.5735.199
-[DEBUG] 2023-07-14 19:05:41.007 [main] ResolutionCache - Removing resolution chrome114=114.0.5735.90 from cache (expired on 2023-07-12T23:01:23.000+0300)
-[DEBUG] 2023-07-14 19:05:41.012 [main] InternalHttpClient - ex-0000000002 preparing request execution
-[DEBUG] 2023-07-14 19:05:41.013 [main] ProtocolExec - ex-0000000002 target auth state: UNCHALLENGED
-[DEBUG] 2023-07-14 19:05:41.013 [main] ProtocolExec - ex-0000000002 proxy auth state: UNCHALLENGED
-[DEBUG] 2023-07-14 19:05:41.014 [main] ConnectExec - ex-0000000002 acquiring connection with route {s}->https://chromedriver.storage.googleapis.com:443
-[DEBUG] 2023-07-14 19:05:41.014 [main] InternalHttpClient - ex-0000000002 acquiring endpoint (3 MINUTES)
-[DEBUG] 2023-07-14 19:05:41.014 [main] PoolingHttpClientConnectionManager - ex-0000000002 endpoint lease request (3 MINUTES) [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 1; route allocated: 0 of 5; total allocated: 1 of 25]
-[DEBUG] 2023-07-14 19:05:41.015 [main] PoolingHttpClientConnectionManager - ex-0000000002 endpoint leased [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 1; route allocated: 1 of 5; total allocated: 2 of 25]
-[DEBUG] 2023-07-14 19:05:41.015 [main] PoolingHttpClientConnectionManager - ex-0000000002 acquired ep-0000000002
-[DEBUG] 2023-07-14 19:05:41.015 [main] InternalHttpClient - ex-0000000002 acquired endpoint ep-0000000002
-[DEBUG] 2023-07-14 19:05:41.015 [main] ConnectExec - ex-0000000002 opening connection {s}->https://chromedriver.storage.googleapis.com:443
-[DEBUG] 2023-07-14 19:05:41.015 [main] InternalHttpClient - ep-0000000002 connecting endpoint (null)
-[DEBUG] 2023-07-14 19:05:41.015 [main] PoolingHttpClientConnectionManager - ep-0000000002 connecting endpoint to https://chromedriver.storage.googleapis.com:443 (30 SECONDS)
-[DEBUG] 2023-07-14 19:05:41.015 [main] DefaultHttpClientConnectionOperator - chromedriver.storage.googleapis.com resolving remote address
-[DEBUG] 2023-07-14 19:05:41.256 [main] DefaultHttpClientConnectionOperator - chromedriver.storage.googleapis.com resolved to [chromedriver.storage.googleapis.com/172.217.171.208, chromedriver.storage.googleapis.com/2a00:1450:4006:803:0:0:0:2010]
-[DEBUG] 2023-07-14 19:05:41.257 [main] DefaultHttpClientConnectionOperator - chromedriver.storage.googleapis.com:443 connecting null->chromedriver.storage.googleapis.com/172.217.171.208:443 (30 SECONDS)
-[DEBUG] 2023-07-14 19:05:41.257 [main] SSLConnectionSocketFactory - Connecting socket to chromedriver.storage.googleapis.com/172.217.171.208:443 with timeout 30 SECONDS
-[DEBUG] 2023-07-14 19:05:41.569 [main] SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-[DEBUG] 2023-07-14 19:05:41.569 [main] SSLConnectionSocketFactory - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-[DEBUG] 2023-07-14 19:05:41.570 [main] SSLConnectionSocketFactory - Starting handshake (null)
-[DEBUG] 2023-07-14 19:05:41.996 [main] SSLConnectionSocketFactory - Secure session established
-[DEBUG] 2023-07-14 19:05:41.996 [main] SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-[DEBUG] 2023-07-14 19:05:41.996 [main] SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
-[DEBUG] 2023-07-14 19:05:41.996 [main] SSLConnectionSocketFactory -  peer principal: CN=*.storage.googleapis.com
-[DEBUG] 2023-07-14 19:05:41.997 [main] SSLConnectionSocketFactory -  peer alternative names: [*.storage.googleapis.com, *.googleapis.com, commondatastorage.googleapis.com, *.commondatastorage.googleapis.com, storage.googleapis.com, storage-p2.googleapis.com, *.storage-p2.googleapis.com, storage.mtls.googleapis.com, *.appspot.com.storage.googleapis.com, *.content-storage.googleapis.com, *.content-storage-p2.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage-download.googleapis.com, *.storage-upload.googleapis.com, *.storage-download.googleapis.com]
-[DEBUG] 2023-07-14 19:05:41.997 [main] SSLConnectionSocketFactory -  issuer principal: CN=GTS CA 1C3, O=Google Trust Services LLC, C=US
-[DEBUG] 2023-07-14 19:05:41.997 [main] DefaultManagedHttpClientConnection - http-outgoing-1 set socket timeout to 3 MINUTES
-[DEBUG] 2023-07-14 19:05:41.997 [main] DefaultHttpClientConnectionOperator - chromedriver.storage.googleapis.com:443 connected null->chromedriver.storage.googleapis.com/172.217.171.208:443 as http-outgoing-1
-[DEBUG] 2023-07-14 19:05:41.998 [main] PoolingHttpClientConnectionManager - ep-0000000002 connected http-outgoing-1
-[DEBUG] 2023-07-14 19:05:41.998 [main] InternalHttpClient - ep-0000000002 endpoint connected
-[DEBUG] 2023-07-14 19:05:41.998 [main] MainClientExec - ex-0000000002 executing GET /LATEST_RELEASE_114 HTTP/1.1
-[DEBUG] 2023-07-14 19:05:41.998 [main] RequestAddCookies - ex-0000000002 Cookie spec selected: strict
-[DEBUG] 2023-07-14 19:05:41.998 [main] InternalHttpClient - ep-0000000002 start execution ex-0000000002
-[DEBUG] 2023-07-14 19:05:41.998 [main] PoolingHttpClientConnectionManager - ep-0000000002 executing exchange ex-0000000002 over http-outgoing-1
-[DEBUG] 2023-07-14 19:05:41.998 [main] headers - http-outgoing-1 >> GET /LATEST_RELEASE_114 HTTP/1.1
-[DEBUG] 2023-07-14 19:05:41.999 [main] headers - http-outgoing-1 >> user-agent: Apache-HttpClient/5.0
-[DEBUG] 2023-07-14 19:05:41.999 [main] headers - http-outgoing-1 >> accept-encoding: gzip, deflate, br
-[DEBUG] 2023-07-14 19:05:41.999 [main] headers - http-outgoing-1 >> cache-control: max-age=0
-[DEBUG] 2023-07-14 19:05:41.999 [main] headers - http-outgoing-1 >> connection: keep-alive
-[DEBUG] 2023-07-14 19:05:41.999 [main] headers - http-outgoing-1 >> Host: chromedriver.storage.googleapis.com
-[DEBUG] 2023-07-14 19:05:41.999 [main] wire - http-outgoing-1 >> "GET /LATEST_RELEASE_114 HTTP/1.1[\r][\n]"
-[DEBUG] 2023-07-14 19:05:41.999 [main] wire - http-outgoing-1 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.000 [main] wire - http-outgoing-1 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.000 [main] wire - http-outgoing-1 >> "cache-control: max-age=0[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.000 [main] wire - http-outgoing-1 >> "connection: keep-alive[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.000 [main] wire - http-outgoing-1 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.000 [main] wire - http-outgoing-1 >> "[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.831 [main] wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.831 [main] wire - http-outgoing-1 << "X-GUploader-UploadID: ADPycdvhOJXpjU3EQgoxaXoHwl2UuW2SjlGHONV-UPYeg1FXOJLCHi2KxG-UsNDBtWLcX3G0MmoO1bG16SeEpES-pQPmTAukepJ4[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.831 [main] wire - http-outgoing-1 << "x-goog-generation: 1685523456288632[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.831 [main] wire - http-outgoing-1 << "x-goog-metageneration: 1[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.831 [main] wire - http-outgoing-1 << "x-goog-stored-content-encoding: identity[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.832 [main] wire - http-outgoing-1 << "x-goog-stored-content-length: 13[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.832 [main] wire - http-outgoing-1 << "x-goog-hash: crc32c=tVW4TA==[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.832 [main] wire - http-outgoing-1 << "x-goog-hash: md5=NoaEuIlBlniwTkiZ1T16sA==[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.832 [main] wire - http-outgoing-1 << "x-goog-storage-class: STANDARD[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.832 [main] wire - http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Content-Length: 13[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Server: UploadServer[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Date: Fri, 14 Jul 2023 15:14:45 GMT[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Expires: Fri, 14 Jul 2023 16:14:45 GMT[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Cache-Control: public, max-age=3600[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Age: 3052[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "Last-Modified: Wed, 31 May 2023 08:57:36 GMT[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.833 [main] wire - http-outgoing-1 << "ETag: "368684b889419678b04e4899d53d7ab0"[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.834 [main] wire - http-outgoing-1 << "Content-Type: text/plain[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.834 [main] wire - http-outgoing-1 << "Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.834 [main] wire - http-outgoing-1 << "[\r][\n]"
-[DEBUG] 2023-07-14 19:05:42.834 [main] wire - http-outgoing-1 << "114.0.5735.90"
-[DEBUG] 2023-07-14 19:05:42.835 [main] headers - http-outgoing-1 << HTTP/1.1 200 OK
-[DEBUG] 2023-07-14 19:05:42.835 [main] headers - http-outgoing-1 << X-GUploader-UploadID: ADPycdvhOJXpjU3EQgoxaXoHwl2UuW2SjlGHONV-UPYeg1FXOJLCHi2KxG-UsNDBtWLcX3G0MmoO1bG16SeEpES-pQPmTAukepJ4
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-generation: 1685523456288632
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-metageneration: 1
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-stored-content-encoding: identity
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-stored-content-length: 13
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-hash: crc32c=tVW4TA==
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-hash: md5=NoaEuIlBlniwTkiZ1T16sA==
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << x-goog-storage-class: STANDARD
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << Accept-Ranges: bytes
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << Content-Length: 13
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << Server: UploadServer
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << Date: Fri, 14 Jul 2023 15:14:45 GMT
-[DEBUG] 2023-07-14 19:05:42.836 [main] headers - http-outgoing-1 << Expires: Fri, 14 Jul 2023 16:14:45 GMT
-[DEBUG] 2023-07-14 19:05:42.837 [main] headers - http-outgoing-1 << Cache-Control: public, max-age=3600
-[DEBUG] 2023-07-14 19:05:42.837 [main] headers - http-outgoing-1 << Age: 3052
-[DEBUG] 2023-07-14 19:05:42.837 [main] headers - http-outgoing-1 << Last-Modified: Wed, 31 May 2023 08:57:36 GMT
-[DEBUG] 2023-07-14 19:05:42.837 [main] headers - http-outgoing-1 << ETag: "368684b889419678b04e4899d53d7ab0"
-[DEBUG] 2023-07-14 19:05:42.837 [main] headers - http-outgoing-1 << Content-Type: text/plain
-[DEBUG] 2023-07-14 19:05:42.837 [main] headers - http-outgoing-1 << Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-[DEBUG] 2023-07-14 19:05:42.838 [main] MainClientExec - ex-0000000002 connection can be kept alive for 3 MINUTES
-[DEBUG] 2023-07-14 19:05:42.839 [main] InternalHttpClient - ep-0000000002 releasing valid endpoint
-[DEBUG] 2023-07-14 19:05:42.839 [main] PoolingHttpClientConnectionManager - ep-0000000002 releasing endpoint
-[DEBUG] 2023-07-14 19:05:42.839 [main] PoolingHttpClientConnectionManager - ep-0000000002 connection http-outgoing-1 can be kept alive for 3 MINUTES
-[DEBUG] 2023-07-14 19:05:42.840 [main] PoolingHttpClientConnectionManager - ep-0000000002 connection released [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 2; route allocated: 1 of 5; total allocated: 2 of 25]
-[DEBUG] 2023-07-14 19:05:42.840 [main] VersionDetector - Latest version of chromedriver according to https://chromedriver.storage.googleapis.com/LATEST_RELEASE_114 is 114.0.5735.90
-[INFO ] 2023-07-14 19:05:42.840 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
-[DEBUG] 2023-07-14 19:05:42.845 [main] ResolutionCache - Storing resolution chrome=114 in cache (valid until 20:05:42 14/07/2023 AST)
-[DEBUG] 2023-07-14 19:05:42.848 [main] ResolutionCache - Storing resolution chrome114=114.0.5735.90 in cache (valid until 19:05:42 15/07/2023 AST)
-[DEBUG] 2023-07-14 19:05:42.857 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
-[INFO ] 2023-07-14 19:05:42.858 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\salma_abdeltawab\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[WARN ] 2023-07-14 19:05:42.938 [main] ReportManager - Jul 14, 2023 7:05:42 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-[WARN ] 2023-07-14 19:05:42.938 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-[INFO ] 2023-07-14 19:05:45.421 [main] ReportManager - Successfully Opened: "windows | Chrome".
-[INFO ] 2023-07-14 19:05:45.436 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "logInData.json"".
-[INFO ] 2023-07-14 19:05:45.438 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"".
-[INFO ] 2023-07-14 19:05:45.439 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"".
-[INFO ] 2023-07-14 19:05:45.446 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
-[INFO ] 2023-07-14 19:05:45.556 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/", and after redirection: "nopcommerce"
-[INFO ] 2023-07-14 19:05:45.676 [main] ReportManager - Initial URL: "data:,"
-[INFO ] 2023-07-14 19:05:52.697 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
-[INFO ] 2023-07-14 19:05:52.766 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:39.871 [main] ReportManager - Setting "autoCloseDriverInstance" property with "false".
+[INFO ] 2023-07-15 17:22:39.896 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-15 17:22:39.913 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], detach: true, extensions: [], prefs: {download.default_directory: D:\IdeaProjects\WebTestingP..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-15 17:22:39.914 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-15 17:22:39.915 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-15 17:22:40.354 [main] ResolutionCache - Resolution chrome=114 in cache (valid until 18:21:36 15/07/2023 AST)
+[DEBUG] 2023-07-15 17:22:40.355 [main] ResolutionCache - Resolution chrome114=114.0.5735.90 in cache (valid until 19:05:42 15/07/2023 AST)
+[INFO ] 2023-07-15 17:22:40.356 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[DEBUG] 2023-07-15 17:22:40.370 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-15 17:22:40.371 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\salma_abdeltawab\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-15 17:22:40.407 [main] ReportManager - Jul 15, 2023 5:22:40 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-15 17:22:40.407 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[INFO ] 2023-07-15 17:22:41.975 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-15 17:22:41.983 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "logInData.json"".
+[INFO ] 2023-07-15 17:22:41.984 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"".
+[INFO ] 2023-07-15 17:22:41.985 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"".
+[INFO ] 2023-07-15 17:22:41.988 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-07-15 17:22:42.046 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/", and after redirection: "nopcommerce"
+[INFO ] 2023-07-15 17:22:42.086 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-15 17:22:45.652 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2023-07-15 17:22:45.682 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
-                                                   Test Method: 'TestCases.LogInTC.logInTC01'                                                   
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                                      Test Method: 'TestCases.BlogTC.TC01'                                                      
+                                          Test Description: 'see Blog details for e-Commerce business'                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:05:53.325 [main] ReportManager - Moved the mouse to the middle of the element.
-[INFO ] 2023-07-14 19:05:53.461 [main] ReportManager - Click "Log in".
-[INFO ] 2023-07-14 19:05:53.466 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"".
-[INFO ] 2023-07-14 19:05:53.468 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"".
-[INFO ] 2023-07-14 19:05:56.861 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"".
-[INFO ] 2023-07-14 19:05:56.863 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"".
-[INFO ] 2023-07-14 19:05:57.697 [main] ReportManager - Type "test3@test.com" into "Email:".
-[INFO ] 2023-07-14 19:05:58.322 [main] ReportManager - Type "123400" into "Password:".
-[INFO ] 2023-07-14 19:05:58.695 [main] ReportManager - Moved the mouse to the middle of the element.
-[INFO ] 2023-07-14 19:05:58.844 [main] ReportManager - Click "LOG IN".
-[INFO ] 2023-07-14 19:06:03.436 [main] ReportManager - Verification "ValidateElementExists" FAILED. Expected "Element Should not Exist, locator 'By.xpath: //div[@class="message-error validation-summary-errors"]'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "NEGATIVE".
-[INFO ] 2023-07-14 19:06:03.486 [main] ReportManager - Successfully created attachment 'Screenshot - 1689350760905_logInTC01_ValidateElementExists_failed'
-[INFO ] 2023-07-14 19:06:03.490 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
-[INFO ] 2023-07-14 19:06:03.511 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: logInTC01'
-[INFO ] 2023-07-14 19:06:03.743 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:46.037 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-15 17:22:46.112 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-15 17:22:46.114 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"".
+[INFO ] 2023-07-15 17:22:46.115 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"".
+[INFO ] 2023-07-15 17:22:48.871 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"".
+[INFO ] 2023-07-15 17:22:48.873 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"".
+[INFO ] 2023-07-15 17:22:49.274 [main] ReportManager - Type "test3@test.com" into "Email:".
+[INFO ] 2023-07-15 17:22:49.599 [main] ReportManager - Type "123400" into "Password:".
+[INFO ] 2023-07-15 17:22:49.841 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-15 17:22:49.916 [main] ReportManager - Click "LOG IN".
+[INFO ] 2023-07-15 17:22:53.024 [main] ReportManager - Verification "ValidateElementExists" FAILED. Expected "Element Should not Exist, locator 'By.xpath: //div[@class="message-error validation-summary-errors"]'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "NEGATIVE".
+[INFO ] 2023-07-15 17:22:53.081 [main] ReportManager - Successfully created attachment 'Screenshot - 1689430971501_TC01_ValidateElementExists_failed'
+[INFO ] 2023-07-15 17:22:53.084 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
+[INFO ] 2023-07-15 17:22:53.104 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: TC01'
+[INFO ] 2023-07-15 17:22:53.362 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                                      Test Method: 'TestCases.BlogTC.TC02'                                                      
+                                              Test Description: 'ADD comment in Blog details page '                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-15 17:22:53.367 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: TC02'
+[INFO ] 2023-07-15 17:22:53.375 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                              Starting execution of after class configuration method                                             
-                                                         'TestCases.LogInTC.afterClass'                                                         
+                                                          'TestCases.BlogTC.afterClass'                                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:06:03.781 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:53.406 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                            Starting execution of engine teardown configuration method                                           
                                         'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:06:03.784 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
-[INFO ] 2023-07-14 19:06:03.785 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
-[INFO ] 2023-07-14 19:06:03.786 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
-[INFO ] 2023-07-14 19:06:03.822 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "D:\IdeaProjects\WebTestingPractice_ShaftEngine\target\logs\log4j.log"".
-[INFO ] 2023-07-14 19:06:03.824 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log", file was not deleted.".
-[INFO ] 2023-07-14 19:06:03.826 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20230714-190603'
-[DEBUG] 2023-07-14 19:06:03.902 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:03.904 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:03.907 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:03.909 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
-[DEBUG] 2023-07-14 19:06:03.909 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
-[DEBUG] 2023-07-14 19:06:04.151 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.152 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.152 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.153 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.153 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
-[DEBUG] 2023-07-14 19:06:04.414 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.415 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.415 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.416 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.416 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
-[DEBUG] 2023-07-14 19:06:04.432 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.433 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.433 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.434 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.434 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
-[DEBUG] 2023-07-14 19:06:04.439 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.440 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.441 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.441 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.441 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
-[DEBUG] 2023-07-14 19:06:04.445 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.445 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.446 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.446 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.447 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
-[DEBUG] 2023-07-14 19:06:04.454 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
-[DEBUG] 2023-07-14 19:06:04.454 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.455 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.456 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.457 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.457 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
-[DEBUG] 2023-07-14 19:06:04.474 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.475 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.476 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.476 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.477 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
-[DEBUG] 2023-07-14 19:06:04.484 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.485 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.485 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.486 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.486 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
-[DEBUG] 2023-07-14 19:06:04.488 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.488 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.489 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.489 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.490 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
-[DEBUG] 2023-07-14 19:06:04.507 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.508 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.508 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.508 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.508 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
-[DEBUG] 2023-07-14 19:06:04.533 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.534 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.534 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.535 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.535 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
-[DEBUG] 2023-07-14 19:06:04.626 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.627 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.627 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.628 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.628 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
-[DEBUG] 2023-07-14 19:06:04.640 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.642 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.642 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.643 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.643 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
-[DEBUG] 2023-07-14 19:06:04.667 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.668 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.668 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.669 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.670 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
-[DEBUG] 2023-07-14 19:06:04.678 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.679 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.680 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
-[DEBUG] 2023-07-14 19:06:04.683 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.684 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.685 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.685 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.685 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
-[DEBUG] 2023-07-14 19:06:04.687 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
-[DEBUG] 2023-07-14 19:06:04.688 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.689 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
-[DEBUG] 2023-07-14 19:06:04.690 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
-[DEBUG] 2023-07-14 19:06:04.690 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
-[INFO ] 2023-07-14 19:06:04.701 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
-[INFO ] 2023-07-14 19:06:04.708 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
-[INFO ] 2023-07-14 19:06:04.719 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20230714-190604'
-[INFO ] 2023-07-14 19:06:04.730 [main] ReportManager - ===============================================
-[INFO ] 2023-07-14 19:06:04.730 [main] ReportManager - Suite
-[INFO ] 2023-07-14 19:06:04.730 [main] ReportManager - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
-[INFO ] 2023-07-14 19:06:04.730 [main] ReportManager - ===============================================
-[INFO ] 2023-07-14 19:06:04.743 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_14-07-2023_19-06-04-0735-PM.html"".
-[INFO ] 2023-07-14 19:06:04.749 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "D:\IdeaProjects\WebTestingPractice_ShaftEngine\execution-summary\ExecutionSummaryReport_14-07-2023_19-06-04-0735-PM.html"".
-[INFO ] 2023-07-14 19:06:04.773 [main] ReportManager - Executing: ".\execution-summary/ExecutionSummaryReport_*.html" locally.
-[INFO ] 2023-07-14 19:06:07.045 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\execution-summary/ExecutionSummaryReport_*.html" | Exit Status: "0"".
-[INFO ] 2023-07-14 19:06:07.046 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:53.409 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-07-15 17:22:53.410 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-07-15 17:22:53.410 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2023-07-15 17:22:53.440 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "D:\IdeaProjects\WebTestingPractice_ShaftEngine\target\logs\log4j.log"".
+[INFO ] 2023-07-15 17:22:53.442 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log", file was not deleted.".
+[INFO ] 2023-07-15 17:22:53.444 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20230715-172253'
+[DEBUG] 2023-07-15 17:22:53.516 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:53.518 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:53.521 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:53.523 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2023-07-15 17:22:53.523 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2023-07-15 17:22:53.754 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:53.755 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:53.755 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:53.755 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2023-07-15 17:22:53.756 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2023-07-15 17:22:54.004 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.005 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.006 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.006 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.006 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2023-07-15 17:22:54.021 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.021 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.022 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.023 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.023 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2023-07-15 17:22:54.026 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.027 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.028 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.036 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.037 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2023-07-15 17:22:54.040 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.041 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.041 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.042 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.042 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2023-07-15 17:22:54.050 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-07-15 17:22:54.050 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.051 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.051 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.052 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.052 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2023-07-15 17:22:54.067 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.068 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.069 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.070 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.070 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2023-07-15 17:22:54.077 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.078 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.078 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.079 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.079 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2023-07-15 17:22:54.081 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.081 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.082 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.083 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.083 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2023-07-15 17:22:54.096 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.097 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.097 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.098 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.098 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2023-07-15 17:22:54.116 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.117 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.118 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.118 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.118 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2023-07-15 17:22:54.181 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.183 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.183 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.184 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.184 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2023-07-15 17:22:54.202 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.203 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.203 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.204 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.204 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2023-07-15 17:22:54.224 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-07-15 17:22:54.225 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.226 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.226 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.227 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.227 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2023-07-15 17:22:54.234 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.235 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.235 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.236 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.236 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2023-07-15 17:22:54.238 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.238 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.239 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.239 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.240 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2023-07-15 17:22:54.241 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-15 17:22:54.242 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.243 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2023-07-15 17:22:54.243 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2023-07-15 17:22:54.243 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/salma_abdeltawab/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2023-07-15 17:22:54.256 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-07-15 17:22:54.263 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2023-07-15 17:22:54.274 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20230715-172254'
+[INFO ] 2023-07-15 17:22:54.282 [main] ReportManager - ===============================================
+[INFO ] 2023-07-15 17:22:54.282 [main] ReportManager - Suite
+[INFO ] 2023-07-15 17:22:54.282 [main] ReportManager - Total tests run: 2, Passes: 0, Failures: 1, Skips: 1
+[INFO ] 2023-07-15 17:22:54.282 [main] ReportManager - ===============================================
+[INFO ] 2023-07-15 17:22:54.292 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_15-07-2023_17-22-54-0286-PM.html"".
+[INFO ] 2023-07-15 17:22:54.296 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "D:\IdeaProjects\WebTestingPractice_ShaftEngine\execution-summary\ExecutionSummaryReport_15-07-2023_17-22-54-0286-PM.html"".
+[INFO ] 2023-07-15 17:22:54.316 [main] ReportManager - Executing: ".\execution-summary/ExecutionSummaryReport_*.html" locally.
+[INFO ] 2023-07-15 17:22:54.636 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\execution-summary/ExecutionSummaryReport_*.html" | Exit Status: "0"".
+[INFO ] 2023-07-15 17:22:54.637 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                                          Test Execution Summary Results                                                         
-                                              Total Cases: 1 --> Passed: 0 | Failed: 1 | Skipped: 0                                              
+                                              Total Cases: 2 --> Passed: 0 | Failed: 1 | Skipped: 1                                              
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-07-14 19:06:07.047 [main] ReportManager - 
+[INFO ] 2023-07-15 17:22:54.637 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                              This test run was powered by SHAFT Engine v7.2.20230621                                             
                                   SHAFT Engine is *and will always be* 100% FREE for commercial and private use                                  
@@ -405,4 +208,4 @@
                                            https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE                                           
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[DEBUG] 2023-07-14 19:06:07.051 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on windows (c0d76332f6330d6170df03bb3dd59fc2)
+[DEBUG] 2023-07-15 17:22:54.639 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on windows (ebc4f8190cc23839849d5732d1da0134)
