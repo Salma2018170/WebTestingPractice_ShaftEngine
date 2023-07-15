@@ -11,6 +11,6 @@ public class LogInTC extends Base {
         logInPage.setEmailAndPassword(
                 testData.getTestData("email"),
                 testData.getTestData("password"));
+        logInPage.verifyThatLoginSuccessful();
     }
-
 }

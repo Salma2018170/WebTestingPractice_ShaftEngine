@@ -11,6 +11,7 @@ public class LogInPage {
     By logInButton=By.xpath("//button[@class=\"button-1 login-button\"]");
 
     By myContentButton=By.className("ico-account");
+    protected By errorMessage=By.xpath("//div[@class=\"message-error validation-summary-errors\"]");
      public LogInPage(SHAFT.GUI.WebDriver driver){
         this.driver=driver;
     }
@@ -25,5 +26,8 @@ public class LogInPage {
     public MyAccountPage goToMyContentPage(){
          driver.element().click(myContentButton);
          return new MyAccountPage(driver);
+    }
+    public void verifyThatLoginSuccessful(){
+         driver.element().verifyThat(errorMessage).doesNotExist().perform();
     }
 }

@@ -1,0 +1,20 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                   Test Method: 'TestCases.LogInTC.logInTC01'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @14-07-2023 19:05:53.0325 PM
+[ReportManager] Click "Log in". @14-07-2023 19:05:53.0451 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @14-07-2023 19:05:53.0466 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @14-07-2023 19:05:53.0468 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @14-07-2023 19:05:56.0861 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @14-07-2023 19:05:56.0862 PM
+[ReportManager] Type "test3@test.com" into "Email:". @14-07-2023 19:05:57.0697 PM
+[ReportManager] Type "123400" into "Password:". @14-07-2023 19:05:58.0322 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-07-2023 19:05:58.0695 PM
+[ReportManager] Click "LOG IN". @14-07-2023 19:05:58.0843 PM
+[ReportManager] Verification "ValidateElementExists" FAILED. Expected "Element Should not Exist, locator 'By.xpath: //div[@class="message-error validation-summary-errors"]'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "NEGATIVE". @14-07-2023 19:06:03.0436 PM
+[ReportManager] Verification Failed: The Element located by "By.xpath: //div[@class="message-error validation-summary-errors"]" does not exist. @14-07-2023 19:06:03.0438 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1689350760905_logInTC01_ValidateElementExists_failed' @14-07-2023 19:06:03.0485 PM
+[ReportManager] Successfully created attachment 'Validation Test Data - Failure Reason' @14-07-2023 19:06:03.0488 PM

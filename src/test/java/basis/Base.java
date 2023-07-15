@@ -22,6 +22,8 @@ public class Base {
 
     @BeforeClass
     public void beforeClass() {
+       // SHAFT.Properties.reporting.set().openAllureReportAfterExecution(true);
+        SHAFT.Properties.flags.set().autoCloseDriverInstance(false);
         driver = new SHAFT.GUI.WebDriver();
         testData = new SHAFT.TestData.JSON("logInData.json");
         driver.browser().navigateToURL(URL,"nopcommerce");
@@ -34,8 +36,6 @@ public class Base {
 //    }
     @AfterClass(alwaysRun = false)
     public void afterClass(){
-       // driver.quit();
-        SHAFT.Properties.flags.set().autoCloseDriverInstance(false);
-
+       //driver.quit();
     }
 }
