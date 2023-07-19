@@ -1,0 +1,30 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                     Test Method: 'TestCases.SearchTC.TC01'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 20:39:16.0158 PM
+[ReportManager] Click "Log in". @15-07-2023 20:39:16.0212 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 20:39:16.0230 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 20:39:16.0230 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 20:39:18.0151 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/logInData.json"". @15-07-2023 20:39:18.0152 PM
+[ReportManager] Type "test3@test.com" into "Email:". @15-07-2023 20:39:23.0351 PM
+[ReportManager] Type "123400" into "Password:". @15-07-2023 20:39:23.0615 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 20:39:23.0817 PM
+[ReportManager] Click "LOG IN". @15-07-2023 20:39:23.0849 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 20:39:24.0409 PM
+[ReportManager] Click "Search". @15-07-2023 20:39:24.0445 PM
+[ReportManager] Type "SHAFT Engine" into "Search keyword:". @15-07-2023 20:39:25.0623 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 20:39:25.0810 PM
+[ReportManager] Click "Advanced search". @15-07-2023 20:39:25.0861 PM
+[ReportManager] Select "Computers" from "Category:". @15-07-2023 20:39:26.0350 PM
+[ReportManager] Select "1" from "Manufacturer:". @15-07-2023 20:39:26.0629 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-07-2023 20:39:26.0801 PM
+[ReportManager] Click "SEARCH". @15-07-2023 20:39:26.0832 PM
+[ReportManager] Verification "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.className: no-result'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-07-2023 20:39:28.0915 PM
+[ReportManager] Verification Passed: The Element located by "By.className: no-result" exists. @15-07-2023 20:39:28.0916 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1689442768033_TC01_ValidateElementExists_passed' @15-07-2023 20:39:28.0950 PM
+[ReportManager] Capture element screenshot @15-07-2023 20:39:29.0348 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1689442769199_TC01_captureScreenshot_passed' @15-07-2023 20:39:29.0350 PM

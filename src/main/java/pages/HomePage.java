@@ -12,6 +12,7 @@ public class HomePage {
     private final By computerElement=By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/a");
     private final By blogElement=By.linkText("Blog");
     private final By customerCurrency=By.id("customerCurrency");
+    private final By searchLink=By.xpath("//a[text()='Search']");
     public HomePage(SHAFT.GUI.WebDriver driver){
         this.driver=driver;
     }
@@ -39,5 +40,9 @@ public class HomePage {
     }
     public void changeCurrencyToEuro(){
        driver.element().select(customerCurrency,"Euro");
+    }
+    public SearchPage goToSearchPage(){
+        driver.element().click(searchLink);
+        return new SearchPage(driver);
     }
 }

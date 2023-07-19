@@ -19,11 +19,12 @@ public class Base {
     protected  ChangePasswordPage changePasswordPage;
     protected WishListPage wishListPage;
     protected BlogPage blogPage;
+    protected SearchPage searchPage;
 
 
     @BeforeClass
     public void beforeClass() {
-       // SHAFT.Properties.reporting.set().openAllureReportAfterExecution(true);
+        SHAFT.Properties.reporting.set().openAllureReportAfterExecution(true);
         SHAFT.Properties.flags.set().autoCloseDriverInstance(false);
         driver = new SHAFT.GUI.WebDriver();
         testData = new SHAFT.TestData.JSON("logInData.json");
